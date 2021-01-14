@@ -34,11 +34,11 @@ Committer - Eder
 
 Ao usar o comando git add. vc está modificando arquivos que estavam untracked, para Staged "tracked".
 
-![image-20210113231026919](C:\Users\Eder Sena\AppData\Roaming\Typora\typora-user-images\image-20210113231026919.png)
+![image-20210113231026919](.\imgs\image-20210113231026919.png)
 
-![image-20210113231556028](C:\Users\Eder Sena\AppData\Roaming\Typora\typora-user-images\image-20210113231556028.png)
+![image-20210113231556028](.\imgs\image-20210113231556028.png)
 
-![image-20210113231630724](C:\Users\Eder Sena\AppData\Roaming\Typora\typora-user-images\image-20210113231630724.png)
+![image-20210113231630724](.\imgs\image-20210113231630724.png)
 
 # Trabalhando no github
 
@@ -47,3 +47,24 @@ Ao usar o comando git add. vc está modificando arquivos que estavam untracked, 
 +  git config --global user.nickname "ederusena"
 +  git config --global user.email "eder.sena@live.com"
 
+### …or create a new repository on the command line
+
+```git
+echo "# livrodereceitas" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:ederusena/livrodereceitas.git
+git push -u origin main
+```
+
+### …or push an existing repository from the command line
+
+
+
+```git
+git remote add origin git@github.com:ederusena/livrodereceitas.git
+git branch -M main
+git push -u origin main
+```
