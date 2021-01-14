@@ -34,11 +34,11 @@ Committer - Eder
 
 Ao usar o comando git add. vc está modificando arquivos que estavam untracked, para Staged "tracked".
 
-![image-20210113231026919](.\imgs\image-20210113231026919.png)
+![image-20210113231026919](./imgs/image-20210113231026919.png)
 
-![image-20210113231556028](.\imgs\image-20210113231556028.png)
+![image-20210113231556028](./imgs/image-20210113231556028.png)
 
-![image-20210113231630724](.\imgs\image-20210113231630724.png)
+![image-20210113231630724](./imgs/image-20210113231630724.png)
 
 # Trabalhando no github
 
