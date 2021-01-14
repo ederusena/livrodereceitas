@@ -68,3 +68,6 @@ git remote add origin git@github.com:ederusena/livrodereceitas.git
 git branch -M main
 git push -u origin main
 ```
+
+# Resolvendo Conflitos
+

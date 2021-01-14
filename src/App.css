@@ -1,0 +1,76 @@
+.App {
+  text-align: left;
+}
+
+body {
+  background: #ccccccab;
+  padding: 0;
+  margin: auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 900px;
+  max-width: 900px;
+}
+
+.hero {
+  margin-top: 15px;
+  width: 15%;
+  border: 2px solid rgba(84, 16, 90, 0.774);
+  border-radius: 39px;
+}
+
+.article_img {
+  width: 100%;
+  margin-bottom: 15px;
+  border-radius: 15px;
+}
+
+#title, .subtitle, .post_title {
+  color: rgb(44, 44, 117);
+}
+
+#title {
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: wavy;
+  color:  rgb(44, 44, 117);
+}
+.post_title {
+  font-size: 16px;
+  font-style: italic;
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.post {
+  background-color: cornsilk;
+  padding: 15px;
+  width: auto;
+  border: 2px solid black;
+  margin-bottom: 15px;
+  text-align: justify;
+  border-radius: 15px;
+}
+
+.post_title_2 {
+  text-align: center;
+  padding: 2px;
+}
+
+.post_content {
+  margin: 0;
+  margin-bottom: 15px;
+  text-transform: capitalize;
+}
+
+.contact_list {
+  list-style-type: none;
+  padding: 0;
+  margin-left: 15px;
+}
+
+.contact_list li a {
+  text-decoration: none;
+}
